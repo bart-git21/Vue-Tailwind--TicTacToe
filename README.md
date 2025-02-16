@@ -4,7 +4,7 @@
 The web-based single page application for learning English.
 
 # Technologies Used
-Frontend: JavaScript, TypeScript, Vue 3, CSS, Bootstrap.
+Frontend: JavaScript, TypeScript, Vue 3, CSS, Tailwind.
 Backend: no.
 Database: no.
 Authentication: no.
