@@ -27,8 +27,10 @@ const winner = computed(() => calculateWinner(board.value));
 const makeMove = (id) => {
   if (winner.value) return;
   if (board.value[id]) return;
-  board.value[id] = player.value;
-  player.value = player.value === "X" ? "O" : "X";
+  [board.value[id], player.value] = [
+    player.value,
+    player.value === "X" ? "O" : "X",
+  ];
 };
 </script>
 
