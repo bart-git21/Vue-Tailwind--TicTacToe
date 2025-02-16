@@ -42,6 +42,10 @@ const resetGame = () => {
 <template>
   <main class="pt-8 text-center dark:bg-gray-800 min-h-screen dark:text-white">
     <h1 class="mb-8 text-3xl font-bold uppercase">Tic Tac Toe</h1>
+    <h3 class="mb-4 text-xl">Player {{ player }}'s turn</h3>
+    <h2 v-if="winner" class="mb-8 text-6xl font-bold">
+      Player {{ winner }} wins!
+    </h2>
   </main>
 </template>
 
