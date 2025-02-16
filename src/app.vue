@@ -32,6 +32,11 @@ const makeMove = (id) => {
     player.value === "X" ? "O" : "X",
   ];
 };
+
+const resetGame = () => {
+  board.value = ["", "", "", "", "", "", "", "", ""];
+  player.value = "X";
+};
 </script>
 
 <template></template>
