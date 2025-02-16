@@ -48,7 +48,7 @@ const resetGame = () => {
         v-for="(cell, id) in board"
         :key="id"
         :class="`border border-white w-20 h-20 hover:bg-gray-700 flex items-center justify-center text-4xl cursor-pointer ${(cell =
-          'X' ? 'text-pink-500' : 'text-blue-500')}`"
+          'X' ? 'text-pink-500' : 'text-blue-500')} cell`"
         @click="makeMove"
       >
         {{ board[id] }}
