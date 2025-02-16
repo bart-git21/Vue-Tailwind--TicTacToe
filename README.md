@@ -1,7 +1,7 @@
 # The Tic tac toe game
 
 # Project Overview:
-The web-based single page application for learning English.
+The web-based single page game.
 
 # Technologies Used
 Frontend: JavaScript, TypeScript, Vue 3, CSS, Tailwind.
@@ -15,3 +15,6 @@ Deployment: GitHub.
 http://localhost/index.html
 
 # Features
+- Display player's turn
+- Game board
+- Reset button
