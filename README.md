@@ -4,12 +4,12 @@
 The web-based single page game.
 
 # Technologies Used
-Frontend: JavaScript, TypeScript, Vue 3, CSS, Tailwind.
-Backend: no.
-Database: no.
-Authentication: no.
-Data format: JSON.
-Deployment: GitHub.
+- Frontend: JavaScript, TypeScript, Vue 3, CSS, Tailwind.
+- Backend: no.
+- Database: no.
+- Authentication: no.
+- Data format: JSON.
+- Deployment: GitHub.
 
 # Base URL
 http://localhost/index.html
